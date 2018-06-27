@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class AdvanceCourseFirstPage {
+public class AdvanceCourseFirstPage extends ReturnPageHeading {
 	WebDriver driver;
 	@FindBy(linkText = "Advanced Course")
 	private WebElement findElementAdvanceCourseLink;
@@ -17,9 +17,5 @@ public class AdvanceCourseFirstPage {
 	}
 	public void clickOnWebElement() {
 		findElementAdvanceCourseLink.click();
-	}
-	
-	public String returnPageHeadingText() {
-		return getPageHeadingText.getText();
 	}
 }

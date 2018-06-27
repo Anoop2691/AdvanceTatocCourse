@@ -1,20 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6048" started-at="2018-06-26T11:43:07Z" finished-at="2018-06-26T11:43:14Z">
+  <suite name="Default suite" duration-ms="10449" started-at="2018-06-27T06:27:45Z" finished-at="2018-06-27T06:27:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6048" started-at="2018-06-26T11:43:07Z" finished-at="2018-06-26T11:43:14Z">
+    <test name="Default test" duration-ms="10449" started-at="2018-06-27T06:27:45Z" finished-at="2018-06-27T06:27:56Z">
       <class name="AdvanceTatocTest.TatocAdvanceCourseTest">
-        <test-method status="PASS" signature="DriverInitialization()[pri:0, instance:AdvanceTatocTest.TatocAdvanceCourseTest@1bce4f0a]" name="DriverInitialization" is-config="true" duration-ms="5721" started-at="2018-06-26T11:43:07Z" finished-at="2018-06-26T11:43:13Z">
+        <test-method status="PASS" signature="DriverInitialization()[pri:0, instance:AdvanceTatocTest.TatocAdvanceCourseTest@5c3bd550]" name="DriverInitialization" is-config="true" duration-ms="8482" started-at="2018-06-27T06:27:45Z" finished-at="2018-06-27T06:27:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DriverInitialization -->
-        <test-method status="PASS" signature="checkAfterClickingAdvanceCourse()[pri:0, instance:AdvanceTatocTest.TatocAdvanceCourseTest@1bce4f0a]" name="checkAfterClickingAdvanceCourse" duration-ms="293" started-at="2018-06-26T11:43:13Z" finished-at="2018-06-26T11:43:13Z">
+        <test-method status="PASS" signature="checkAfterClickingAdvanceCourse()[pri:0, instance:AdvanceTatocTest.TatocAdvanceCourseTest@5c3bd550]" name="checkAfterClickingAdvanceCourse" duration-ms="351" started-at="2018-06-27T06:27:54Z" finished-at="2018-06-27T06:27:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkAfterClickingAdvanceCourse -->
+        <test-method status="PASS" signature="checkAfterClickingGonextInMenu2InHoverPage()[pri:0, instance:AdvanceTatocTest.TatocAdvanceCourseTest@5c3bd550]" name="checkAfterClickingGonextInMenu2InHoverPage" duration-ms="281" started-at="2018-06-27T06:27:54Z" depends-on-methods="AdvanceTatocTest.TatocAdvanceCourseTest.checkAfterClickingAdvanceCourse" finished-at="2018-06-27T06:27:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAfterClickingGonextInMenu2InHoverPage -->
+        <test-method status="PASS" signature="checkAfterRetrievingValidDataFromDatabaseAbdSubmittingInQueryGatePage()[pri:0, instance:AdvanceTatocTest.TatocAdvanceCourseTest@5c3bd550]" name="checkAfterRetrievingValidDataFromDatabaseAbdSubmittingInQueryGatePage" duration-ms="1306" started-at="2018-06-27T06:27:55Z" depends-on-methods="AdvanceTatocTest.TatocAdvanceCourseTest.checkAfterClickingGonextInMenu2InHoverPage" finished-at="2018-06-27T06:27:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAfterRetrievingValidDataFromDatabaseAbdSubmittingInQueryGatePage -->
       </class> <!-- AdvanceTatocTest.TatocAdvanceCourseTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

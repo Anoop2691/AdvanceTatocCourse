@@ -5,8 +5,10 @@
     <classes>
       <class name="AdvanceTatocTest.TatocAdvanceCourseTest">
         <methods>
+          <include name="checkAfterRetrievingValidDataFromDatabaseAbdSubmittingInQueryGatePage"/>
           <include name="checkAfterClickingAdvanceCourse"/>
           <include name="DriverInitialization"/>
+          <include name="checkAfterClickingGonextInMenu2InHoverPage"/>
         </methods>
       </class> <!-- AdvanceTatocTest.TatocAdvanceCourseTest -->
     </classes>

@@ -19,4 +19,12 @@ public class TatocAdvanceCourseTest {
  void checkAfterClickingAdvanceCourse() {
 	 objectForAccessingFunctions.firstPageClickingOnAdvanceCourse();
  }
+ @Test(dependsOnMethods="checkAfterClickingAdvanceCourse")
+ void checkAfterClickingGonextInMenu2InHoverPage() {
+	 objectForAccessingFunctions.secondPageClickingOnGoNextInDropdownMenu2();
+ }
+ @Test(dependsOnMethods="checkAfterClickingGonextInMenu2InHoverPage")
+ void checkAfterRetrievingValidDataFromDatabaseAbdSubmittingInQueryGatePage() {
+	 objectForAccessingFunctions.thirdPageRetrievingDatabaseDataInThirdPage();
+ }
 }
