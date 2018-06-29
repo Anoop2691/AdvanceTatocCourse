@@ -1,5 +1,7 @@
 package AdvanceTatocTest;
 
+import java.io.IOException;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -26,5 +28,13 @@ public class TatocAdvanceCourseTest {
  @Test(dependsOnMethods="checkAfterClickingGonextInMenu2InHoverPage")
  void checkAfterRetrievingValidDataFromDatabaseAbdSubmittingInQueryGatePage() {
 	 objectForAccessingFunctions.thirdPageRetrievingDatabaseDataInThirdPage();
+ }
+ @Test(dependsOnMethods="checkAfterRetrievingValidDataFromDatabaseAbdSubmittingInQueryGatePage")
+ void checkAfterGettingTokenForCurrentSessionIdAndRegisterRestService() throws IOException {
+	 objectForAccessingFunctions.fifthPageAddingCookieUsingSessionIdAndRegisterRestService();
+ }
+ @Test(dependsOnMethods="checkAfterGettingTokenForCurrentSessionIdAndRegisterRestService")
+ void checkAfterDownloadingFileAndAddingSignature() throws IOException, InterruptedException {
+	 objectForAccessingFunctions.sixthPageDownloadFileAddSignature();
  }
 }
